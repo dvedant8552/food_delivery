@@ -1,0 +1,246 @@
+/* body{
+    background-color: red;
+} */
+
+/* Navigation section */
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    height: 16vh;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+    #navbar ul a{
+        font-size: 25px;
+    }
+  }
+
+#logo{
+    margin: 0px;
+    padding: 0.5px;
+}
+
+#logo img{
+    height: 60px;
+}
+
+#navbar ul li a{
+    padding: 0.1px 4px;
+    margin: 0.1px 10px;
+}
+
+
+/* Home section */
+
+#home{
+  
+    height: 84vh;
+    /* height:633px; */
+    /* border: 2px solid blue; */
+}
+
+
+
+
+
+
+
+
+/* Services Section */
+
+/* .services_container{
+    /* display: flex; */
+    /* display: absolute; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* width: 100% */
+    /* width: 100vw;
+    border: 2px solid black;
+}  */ 
+
+/* .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 20px;
+    border: 2px solid rgb(11, 1, 1);
+    border-radius: 30px;
+} */
+#services{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+/* Client Section */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+
+
+#amazon img{
+    padding: 0px 0px 0px 0px;
+    height: 5vh;
+}
+
+@media screen and (max-width: 499px) {
+    #amazon img{
+        height:3vh ;
+        padding-top: 0.4vh;
+    }
+    #navbar ul a{
+        font-size: 4vw;
+     
+     }
+     
+
+    .client-item img{
+        height: 40px;
+        /* border: 2px solid blue; */
+        margin: 5px 5px;
+        padding: 0.5vw 8vw;
+        
+        /* filter:contrast(100%) */
+        /* filter:brightness(100%) */
+
+    }
+
+
+    .box{
+        padding: 4vw;
+        margin: 4vw 8vw;
+        border: 0.35vw solid rgb(11, 1, 1);
+        border-radius: 30px;
+    }
+
+    #services img{
+        height: 30vw;
+     }
+
+
+
+
+  }
+
+/* Contact Section*/
+
+#contact-box form .submitbtn{
+
+    font-size: 2vw;
+    margin: 0px;
+    margin: auto;
+    /* padding: 1.2vh 10vh; */
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+
+}
+
+/*  */ 
+
+/* Utility Classes */
+
+.h-prim{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.h-primary{
+
+    padding-top: 15px;
+    font-size: 28px;
+}
+
+.h-second{
+    padding: 8px;
+    font-size: 22px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+ 
+    .h-prim{
+        font-size: 6vw;
+        padding: 0.5vw;
+        padding-bottom: 7.5vw;
+        padding-top: 0px;
+    }
+
+    #home p{
+        font-size: 3vw;
+    }
+
+    .btn{
+        padding: 1.5vw 1.5vw;
+        border: 0.3vw solid white;
+        border-radius: 1.5vw;
+        font-size: 3.5vw;
+        margin: 4vw 1vw;
+    }
+
+    .h-primary{
+
+        padding-top: 0.5vw;
+        font-size: 4.5vw;
+    }
+
+    .h-second{
+        padding: 0.4vw;
+        font-size: 3.5vw;
+    }
+
+    .box p{
+        font-size:2.5vw ;
+
+    }
+
+    #contact-box input, #contact-box textarea{
+   
+        font-size: 2.3vw;
+        margin-top: 0.4vw;
+        margin-bottom: 0.8vw;
+        /* margin:10px 5px 7px 2px;
+        border: 2px solid black;
+        font-weight: lighter;*/
+        
+    }
+
+    #contact-box label{
+        
+        font-size: 2.5vw;
+        padding: 1.1vh;
+     
+    
+    }
+
+    footer{
+        padding: 0px;
+        font-size: 2vw;
+    }
+
+   
+
+
+  }
+
